@@ -1,3 +1,5 @@
+![alt text](screenshot.png)
+
 # SpringJasperDemo
 A web app that demonstrates how to use Spring Boot in conjunction with Jasper Reports for printing
 
