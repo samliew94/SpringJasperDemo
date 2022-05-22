@@ -10,7 +10,9 @@ A web app that demonstrates how to use Spring Boot in conjunction with Jasper Re
 # Setup
   Your machine must be running Java 11 (may add Docker support)<br/>
   The app runs on localhost:8080<br/>
-  In command prompt, run the following<br/>
+  In command prompt, run the following:<br/>  
+  `java -jar SpringJasperDemo-1.0.0.jar`<br/>
+  Navigate to any of the end points below to test it out.<br/>
 
 # End Points
   `/order` -> fetches all orders from db<br/>
