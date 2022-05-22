@@ -8,15 +8,15 @@ A web app that demonstrates how to use Spring Boot in conjunction with Jasper Re
   This Json file is then sent to the .jasper file to display records ready for printing.<br/>
 
 # Setup
-  Your machine must be running Java 11 (may add Docker support to avoid this)<br/>
+  Your machine must be running Java 11 (may add Docker support)<br/>
   The app runs on localhost:8080<br/>
-  The database is an embedded one running on H2.<br/>
+  In command prompt, run the following<br/>
 
 # End Points
-  /order -> fetches all orders from db<br/>
-  /order/delete -> deletes all data from table Order<br/>
-  /order/populate -> performs /order/delete, inserts 50 rows of of random data and finally performs /order<br/>
-  /print -> all data from table Order is processed and prepped by JasperLibrary for printing.<br/>
+  `/order` -> fetches all orders from db<br/>
+  `/order/delete` -> deletes all data from table Order<br/>
+  `/order/populate` -> performs /order/delete, inserts 50 rows of of random data and finally performs /order<br/>
+  `/print` -> all data from table Order is processed and prepped by JasperLibrary for printing.<br/>
 
 # DB Structure:
   DB Type -> MySQL<br/>
