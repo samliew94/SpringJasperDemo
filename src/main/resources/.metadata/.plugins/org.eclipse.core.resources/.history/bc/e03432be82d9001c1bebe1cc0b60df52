@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 6.17.0-6d93193241dd8cc42629e188b94f9e0bc5722efd  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="testsubreport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="f956b043-c0e2-4d53-8851-b1356b87e8bc">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="orderId" class="java.lang.Object"/>
+	<field name="productName" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="278" height="30" uuid="669b33cb-3020-4727-804d-829617713060">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9bac9236-b319-4720-9d4d-7296a7b46839"/>
+				</reportElement>
+				<text><![CDATA[orderId]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="278" y="0" width="277" height="30" uuid="a8754877-b4b7-48b3-8711-b3e9afe5a5a2">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e0e35cf9-f738-4de3-bc41-d1c87db84c15"/>
+				</reportElement>
+				<text><![CDATA[productName]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="278" height="30" uuid="a904a759-7e8c-47f9-9633-bab2be1d9e8a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9bac9236-b319-4720-9d4d-7296a7b46839"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{orderId}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="278" y="0" width="277" height="30" uuid="fb7a99ae-e561-4379-b1ed-f2eb86cbdbc4">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e0e35cf9-f738-4de3-bc41-d1c87db84c15"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{productName}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

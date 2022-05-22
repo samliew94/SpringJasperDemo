@@ -1,0 +1,14 @@
+{
+	"companyName":"Samsoft Solutions",
+	"orders":[
+		{
+	        "orderId":1,
+	        "productName":"ITEM A"
+	    },
+		{
+	        "orderId":2,
+	        "productName":"ITEM B"
+	    }
+	]
+	
+}
